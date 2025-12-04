@@ -2,7 +2,7 @@
 ## Tech Stack:
 Frontend: ReactJS, CSS
 Backend: NodeJS
-DB: MongoDB
+DB: MongoDB Atlas
 
 ## High level architecture
 
@@ -13,3 +13,22 @@ DB: MongoDB
  2. Sign in: use the assigned user id and password you created.
 
  3. Patient interface: 
+
+
+Schema : 
+1. Patient : User Profile
+             Daily goals
+             Reminder
+2. Provider :Profile 
+                Patient list
+                 
+                  
+
+
+3. Controller: patient: patientid, mobile no., password
+               provider: providerid, mobileno., password, assigned patient list, 
+               
+               
+
+
+  Routes: /app-landing page, /app/register-patient registration, /app/login-provider/patient login ,
