@@ -1,0 +1,14 @@
+openapi: "3.0.0"
+info:
+  title: Health Portal API
+  version: "1.0"
+paths:
+  /auth/register:
+    post:
+      summary: Register
+  /auth/login:
+    post:
+      summary: Login
+  /users/me:
+    get:
+      summary: Get my profile
